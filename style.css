@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Raleway',sans-serif;
+     background: rgba(0,0,0,0.5);
+}
+h1{
+    font-family: 'Raleway',sans-serif;
+    font-weight:bold;
+    font-size: 65px;
+    
+    //color: #fff;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 2px black;
+    
+}
+h2{
+    font-weight:lighter;
+    font-size: 100px;
+    text-align: right;
+    color: #fff;
+    margin-top: 10px;
+    padding: 0; 
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    letter-spacing: 10px;
+}
+h3{
+    font-weight:bolder;
+    font-size: 30px;
+    text-align: center;
+    //color: #fff;
+    margin: 0;
+    padding: 0; 
+}
+p{
+    width: 500px;
+    overflow: hidden;
+    
+    font-size: 30px;
+    
+}
+header{
+    width: 100%;
+    height: 40px;
+    background: rgba(0,0,0,0.66);
+    position: fixed;
+    margin-top: 10px;
+}
+
+#nav{
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+    
+}
+#logo a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    font-weight: 900;
+}
+#nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    //font-size: 15px;
+    margin-left: 250px;
+}
+#nav ul li{
+    float: left;
+    padding-left: 20px;
+}
+#nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.6;
+}
+#nav li a.active{
+    color: #fff;
+    opacity: 1;
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    transition: all .3s ease;
+}
+#nav li a:hover{
+    color: #fff;
+    opacity: 1;
+}
+
+#page1,#page2{
+    width: 100%;
+    
+}
+
+#page1{
+    background: url(../img/img/1.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#page2{
+background: url(../img/img/2.jpg) 50% 0 no-repeat fixed;
+color: #fff;
+height: 200px;
+margin: 0 auto;
+overflow: hidden;
+padding: 200px 0 260px 0;
+    background-size: cover;
+}
+#page3{
+background: url(../img/img/3.jpg) 50% 0 no-repeat fixed;
+color: #fff;
+height: 200px;
+padding: 200px 0 260px 0;
+background-size: cover;
+}
+#page4{
+background: url(../img/img/4.jpg) 50% 0 no-repeat fixed;
+height: 300px;
+margin: 0 auto;
+padding: 200px 0 260px 0;
+color: #fff;
+background-size: cover;
+border-radius: 0 0 20px 20px;
+}
+
+.content{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.content-left{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: left;
+    text-shadow: 1px 3px 5px black;
+    text-align: justify;
+}
+#listings{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 300px;
+    //padding: 50px;
+   // border: 1px solid white;
+}
+img{
+    width: 95%;
+    height: 90%;
+    align-content: center;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+img:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all .3s ease;
+    
+}
+.left{
+    float: left;
+    width: 31%;
+    height: 300px;
+    margin-right: 23px;
+    margin-left: 20px;
+}
+
+.mid{
+    float: left;
+    width: 31%;
+    height: 300px;
+    margin-right: 23px;
+}
+.right{
+    float: left;
+    width: 31%;
+    height: 300px;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+footer i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.active{
+    transition: all .3s ease;
+}
+
+
+
+@media screen and (max-width: 1142px){
+
+    body{
+        width: 100%;
+        font-size: 100%;
+    }
+    nav{
+            visibility: hidden;
+    }
+    nav ul{
+        width: 100%;
+    }
+    nav ul li{
+        width: 100%;
+        display: block;
+        
+    }
+    img{
+        visibility: hidden;
+    }
+    .left{
+        width: 100%;
+        height: 10px;
+        margin-left: -3px;
+    }
+    .mid{
+        width: 100%;
+        height: 10px;
+        margin-top: 50px;
+    }
+    .right{
+        width: 100%;
+        height: 10px;
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        width: auto;
+        text-align: left;
+        
+    }
+    #page1{
+        height: 100px;
+    }
+    #page2{
+        height: 100px;
+    }
+    #page3{
+        height: 100px;
+    }
+    
+    
+   
+  
+}
